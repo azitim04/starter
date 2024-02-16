@@ -6,11 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/assets/styles/main.css" />
     <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <h1 class="text-2xl">Hello world!</h1>
-
-    <a href="./src/pages/blog.html" class="underline">Link to Blog page</a>
+  <body class="w-[1440px] ">
+        <main class="w-[1201px] mx-auto">
+          <div>
+            <h1 class="ml-[259px] leading-[150%] text-[#292F36] w-[683px] h-[146px] text-5xl text-center">We love meeting new people and helping them.</h1>
+            <div class=" mt-20 flex">
+              <div class="bg-[#F4F0EC] w-[349px] rounded-[50px] pb-[76px]">
+                <div class="flex ">
+                  <div class="ml-8 mt-[76px] mr-[15px]">
+                    <div class=" bg-white rounded-[100%] px-[15px] pt-[18px] pb-[17px]"><img src="src/assets/images/email.svg" alt="email" class="w-[22px] h-[17px]"></div>
+                    <div class=" bg-white rounded-[100%] px-[15px] pt-[18px] pb-[17px] my-[30px]"><img src="src/assets/images/phone.svg" alt="phone" class="w-[22px] h-[17px]"></div>
+                    <div class=" bg-white rounded-[100%] px-[15px] pt-[18px] pb-[17px]"><img src="src/assets/images/internet.svg" alt="internet" class="w-[22px] h-[17px]"></div>
+                  </div>
+                  <div class="flex flex-col mt-[88px]">
+                    <a href="#" class="h-[30] mb-[58px]">info@yourdomain.com</a>
+                    <a href="+1 (378) 400-1234" class="h-[30] mb-[58px]">+1 (378) 400-1234</a>
+                    <a href="#" class="h-[30] ">www.yourdomain.com</a>
+                  </div>
+                </div>
+                <div class="flex mt-[47px] ml-8 gap-[35px]">
+                  <a href="#"><img src="src/assets/images/facebook.svg" alt=""></a>
+                  <a href="#"><img src="src/assets/images/twitter.svg" alt=""></a>
+                  <a href="#"><img src="src/assets/images/linkedn.svg" alt=""></a>
+                  <a href="#"><img src="src/assets/images/instagram.svg" alt=""></a>
+                </div>
+              </div>
+              <form class="w-[797px] ml-[55px]">
+                <div class="flex">
+                  <input type="text" class="border-b-2 border-black w-[378px] mr-[39px] h-[45px] " placeholder="Name" required>
+                  <input type="email" class="border-b-2 border-black w-[378px] h-[45px] " placeholder="Email" required>
+                </div>
+                <div class="flex mt-[50px] mb-[50px]">
+                  <input type="text" class="border-b-2 border-black w-[378px] mr-[39px] h-[45px]" placeholder="Subject" required>
+                  <input type="number" class="border-b-2 border-black w-[378px] h-[45px] " placeholder="Phone" required>
+                </div>
+                <input type="text" class="border-b-2 border-black w-[795px] h-[175px]" placeholder="Hello Iam Intrested in.." required>
+                <button type="submit" class="ml-[576.86px] flex bg-black text-white px-[54px] py-[26px] rounded-[18px] mt-[58px]">Send Now <img class="mt-[7px] ml-[9px] w-[15.14px] h-[13.18px]" src="src/assets/images/vector_btn.svg" alt=""></button>
+              </form>
+            </div>
+          </div>
+          <div  class="mt-[150px] mb-[98px]">
+            <img src="src/assets/images/map.svg" alt="">
+          </div>
+        </main>
+        
 
     <script type="module" src="./src/js/main.js"></script>
   </body>
